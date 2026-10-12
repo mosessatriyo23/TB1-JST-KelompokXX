@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "pembaruan Perceptron",
+    "dua batch ADALINE",
+    "gradient finite difference",
+    "tie z=0 menjadi +1",
+    "penghentian non-finite pada data ekstrem buatan",
+    "split disjoint tanpa duplikasi",
+    "standardisasi mean/std train-only",
+    "8 pelatihan x 50 epoch",
+    "checkpoint 10/30/50 dari riwayat",
+    "metrik dari prediksi uji",
+    "rekonstruksi prediksi/kesalahan latih dari bobot",
+    "MSE=2J dan J akhir dari parameter",
+    "invariansi skala Perceptron",
+    "dua update aktual Perceptron konsisten dengan dataset",
+    "dua batch aktual ADALINE konsisten dengan seluruh train"
+  ]
+}

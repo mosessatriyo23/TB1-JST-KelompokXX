@@ -1,0 +1,41 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic)",
+  "source": "File data.csv yang diunggah pengguna dari Kaggle",
+  "kaggle_url": "https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data",
+  "kaggle_license": "CC BY-NC-SA 4.0",
+  "kaggle_license_verification": "Kaggle API datasets/list, uciml/breast-cancer-wisconsin-data",
+  "original_url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+  "original_doi": "10.24432/C5DW2B",
+  "original_license": "CC BY 4.0 (UCI)",
+  "access_date": "2026-10-12",
+  "raw_sha256": "1425d9affa78ba8e53afc81d0ef8a19069ee10c4b21fe89b3cf514071b12ee33",
+  "dataset_sha256": "11629606eb03f536dd6128b728bdf0b52105a860bcc3b2cb2de5561020d11ef4",
+  "raw_shape": [
+    569,
+    33
+  ],
+  "raw_counts": {
+    "B": 357,
+    "M": 212
+  },
+  "raw_duplicate_rows": 0,
+  "numeric_duplicate_rows": 0,
+  "missing_predictors": 0,
+  "empty_column": "Unnamed: 32, 569 nilai kosong, dihapus",
+  "excluded_id": "id adalah pengenal rekaman riset publik, tidak menjadi prediktor",
+  "selected_features": [
+    "radius_mean",
+    "texture_mean",
+    "smoothness_mean",
+    "concavity_mean"
+  ],
+  "selection_reason": "Ukuran, tekstur, kehalusan, dan cekungan inti sel. Dipilih sebelum evaluasi, bukan hasil tuning/test. Tidak sekaligus memakai radius, perimeter, dan area yang merepresentasikan ukuran.",
+  "label_map": {
+    "B": -1,
+    "M": 1
+  },
+  "positive_class": "M (malignant/ganas)",
+  "rows_removed": 0,
+  "transforms": "Buang ID dan kolom kosong dari data eksperimen; pilih empat fitur; pertahankan diagnosis dan tambah label bipolar. Tidak ada imputasi, deduplikasi, oversampling atau penghapusan outlier. CSV tetap dalam skala asli.",
+  "approval": "Pengguna mengonfirmasi bahwa penggantian telah dikonsultasikan/diperbolehkan setelah pertanyaan tentang C.1. Tidak ada surat persetujuan di dalam paket."
+}

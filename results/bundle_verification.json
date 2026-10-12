@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "required_files": [
+    "TB1_KelompokXX.ipynb",
+    "TB1_KelompokXX.pdf",
+    "dataset.csv",
+    "README.md",
+    "requirements.txt",
+    "Presentasi_TB1.pdf",
+    "Presentasi_TB1.pptx"
+  ],
+  "report_pages": 12,
+  "main_report_pages": 8,
+  "slide_count": 13,
+  "notebook_cells": 32,
+  "executed_code_cells": 12,
+  "native_chart_count": 6,
+  "missing_readme_links": [],
+  "legacy_dataset_references": false,
+  "checks": [
+    "keberadaan berkas wajib",
+    "sel notebook berurutan dan output nyata",
+    "tautan README",
+    "jumlah/label halaman isi",
+    "angka akurasi CSV/PDF/PPTX",
+    "referensi dataset lama tidak tertinggal",
+    "hash CSV sumber/eksperimen"
+  ]
+}
